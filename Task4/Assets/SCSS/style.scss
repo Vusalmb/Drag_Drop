@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        .item{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        #item1{
+            background-color: red;
+            
+        }
+
+        #item2{
+            background-color: blue;
+        }
+
+        #item3{
+            background-color: green;
+        }
+    }
+
+    .dropZone{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .drop-zone{
+            border-radius: 50%;
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
